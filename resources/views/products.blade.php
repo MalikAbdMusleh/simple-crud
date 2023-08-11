@@ -14,8 +14,6 @@
   <div class="card-body">
     <h5 class="card-title">product_name :{{$product->product_name}}</h5>
     <p class="card-text">user_id :{{$product->user_id}}</p>
-    <a href="http://127.0.0.1:8000/delete_products/{{ $product->id }}" class="btn btn-danger">Delete Product</a>
-
   </div>
 </div>
 @endforeach
